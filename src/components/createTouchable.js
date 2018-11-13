@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { renderers } from 'rndm-render';
+import { renderers } from '@rndm/render';
 import { noop, get } from 'lodash';
 
 const createTouchable = (Input) => (
