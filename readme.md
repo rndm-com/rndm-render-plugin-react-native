@@ -18,7 +18,7 @@ npm install --save @rndm/render-plugin-react-native
 
 ### Post Installation
 
-In order to allow this plugin to work, it must first be included in your project. You can do this inside yout main index file:
+In order to allow this plugin to work, it must first be included in your project. You can do this inside your main index file:
 
 ```javascript
 import '@rndm/render-plugin-core';
