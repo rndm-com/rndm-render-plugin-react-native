@@ -1,14 +1,14 @@
-# RNDM Render Plugin: React Native
+# [RNDM](https://www.rndm.com) Render Plugin: React Native
 
 ## About
 
-This plugin provides the core functionality for the [RNDM Render package](https://github.com/rndm-com/rndm-render).
+This plugin provides the core functionality for the [RNDM Render package](https://www.rndm.com/docs/rndm-render).
 
-_**Please Note**: This plugin is also contained within the [Core Preset](https://github.com/rndm-com/rndm-render-preset-core) package, which also includes other functionality such as React Native components and lodash methods. If you are looking to get started, we highly recommend the [RNDM Client](https://github.com/rndm-com/rndm-client) which includes the standard [RNDM Render](https://github.com/rndm-com/rndm-render) and the core plugin._
+_**Please Note**: This plugin is also contained within the [Core Preset](https://www.rndm.com/docs/rndm-render/preset/core) package, which also includes other functionality such as React Native components and lodash methods. If you are looking to get started, we highly recommend the [RNDM Client](https://github.com/rndm-com/rndm-client) which includes the standard [RNDM Render](https://www.rndm.com/docs/rndm-render) and the core plugin._
 
 ## Installation
 
-If you have not already done so, then please ensure you have installed the [RNDM Render](https://github.com/rndm-com/rndm-render) and [RNDM Plugin: Core](https://github.com/rndm-com/rndm-render-plugin-core) package.
+If you have not already done so, then please ensure you have installed the [RNDM Render](https://www.rndm.com/docs/rndm-render) and [RNDM Plugin: Core](https://www.rndm.com/docs/rndm-render/plugin/core) package.
 
 ### From NPM
 
@@ -61,3 +61,5 @@ const Element = () => render(component)
 For the full suite of available React Native methods, [please checkout their awesome and powerful library](https://facebook.github.io/react-native/).
 
 _(Note: This library is versioned alongside its corresponding Native Version version.)_
+
+Check out the [Playground](https://www.rndm.com/playground) page to see how these features work.
