@@ -4,6 +4,7 @@ import createTouchable from './createTouchable';
 const { TouchableOpacity, TouchableHighlight, TouchableWithoutFeedback } = ReactNative;
 
 const exclusions = [
+  'BackAndroid',
   'Navigator',
   'NavigatorIOS',
   'PushNotificationIOS',
