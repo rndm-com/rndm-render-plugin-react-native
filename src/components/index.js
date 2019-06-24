@@ -1,3 +1,4 @@
+import React from 'react';
 import ReactNative from 'react-native';
 import createTouchable from './createTouchable';
 
@@ -13,8 +14,10 @@ const exclusions = [
   'TouchableWithoutFeedback',
 ];
 
+const createElement = Element => props => <Element {...props} />;
+
 const components = [
-  ...Object.keys(ReactNative).filter(i => !exclusions.includes(i)).map(type => ({ type, value: ReactNative[type] })),
+  ...Object.keys(ReactNative).filter(i => !exclusions.includes(i)).map(type => ({ type, value: createElement(ReactNative[type]) })),
   {
     type: 'TouchableOpacity',
     value: createTouchable(TouchableOpacity),
