@@ -1,0 +1,37 @@
+import View from './View';
+
+const WebView = {
+  ...View,
+  source: null,
+  automaticallyAdjustContentInsets: null,
+  injectJavaScript: null,
+  injectedJavaScript: null,
+  mediaPlaybackRequiresUserAction: null,
+  nativeConfig: null,
+  onError: null,
+  onLoad: null,
+  onLoadEnd: null,
+  onLoadStart: null,
+  onMessage: null,
+  onNavigationStateChange: null,
+  renderError: null,
+  renderLoading: null,
+  scalesPageToFit: null,
+  onShouldStartLoadWithRequest: null,
+  startInLoadingState: null,
+  decelerationRate: null,
+  domStorageEnabled: null,
+  javaScriptEnabled: null,
+  mixedContentMode: null,
+  thirdPartyCookiesEnabled: null,
+  userAgent: null,
+  allowsInlineMediaPlayback: null,
+  bounces: null,
+  contentInset: null,
+  dataDetectorTypes: null,
+  scrollEnabled: null,
+  url: null,
+  html: null,
+};
+
+export default WebView;

@@ -1,8 +1,8 @@
 import React from 'react';
-import ReactNative from 'react-native';
+import * as ReactNative from 'react-native';
 import createTouchable from './createTouchable';
 
-const { TouchableOpacity, TouchableHighlight, TouchableWithoutFeedback } = ReactNative;
+const {TouchableOpacity, TouchableHighlight, TouchableWithoutFeedback} = ReactNative;
 
 const exclusions = [
   'BackAndroid',
@@ -17,7 +17,10 @@ const exclusions = [
 const createElement = Element => props => <Element {...props} />;
 
 const components = [
-  ...Object.keys(ReactNative).filter(i => !exclusions.includes(i)).map(type => ({ type, value: createElement(ReactNative[type]) })),
+  ...Object.keys(ReactNative).filter(i => !exclusions.includes(i)).map(type => ({
+    type,
+    value: createElement(ReactNative[type])
+  })),
   {
     type: 'TouchableOpacity',
     value: createTouchable(TouchableOpacity),

@@ -1,6 +1,6 @@
 {
   "name": "@rndm/render-plugin-react-native",
-  "version": "0.59.8",
+  "version": "0.62.2",
   "main": "src/index.js",
   "author": "RNDM",
   "license": "Apache-2.0",
