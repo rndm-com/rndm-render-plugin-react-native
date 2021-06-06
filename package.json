@@ -1,6 +1,6 @@
 {
   "name": "@rndm/render-plugin-react-native",
-  "version": "0.62.2",
+  "version": "0.64.3",
   "main": "src/index.js",
   "author": "RNDM",
   "license": "Apache-2.0",
@@ -14,9 +14,9 @@
     "url": "https://github.com/rndm-com/rndm-render-plugin-react-native/issues"
   },
   "dependencies": {
-    "react": "^16.8.6",
-    "react-art": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-native-web": "^0.11.4"
+    "react": "^17.0.2",
+    "react-art": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-native-web": "^0.16.3"
   }
 }
